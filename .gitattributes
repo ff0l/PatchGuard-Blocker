@@ -1,0 +1,7 @@
+*.cpp linguist-detectable=true linguist-language=C++
+*.cxx linguist-detectable=true linguist-language=C++
+*.cc linguist-detectable=true linguist-language=C++
+*.hpp linguist-detectable=true linguist-language=C++
+*.hh linguist-detectable=true linguist-language=C++
+*.h linguist-detectable=true linguist-language=C++
+*.inl linguist-detectable=true linguist-language=C++
