@@ -9,16 +9,16 @@ C++20 · kernel · paging · shadow hooks
 <br/>
 
 ```text
-                                                        protected page check
-                                                                │
-                                                                ▼
-                                                           mov cr0  (clear WP)
-                                                                │
-                                                                ▼
-                                                          privileged fault ──► KdpReport hook
-                                                                │
-                                                                ▼
-                                                          rewind stack → park thread
+                                                 protected page check
+                                                          │
+                                                          ▼
+                                                     mov cr0  (clear WP)
+                                                          │
+                                                          ▼
+                                             privileged fault ──► KdpReport hook
+                                                          │
+                                                          ▼
+                                               rewind stack → park thread
 ```
 
 </div>
